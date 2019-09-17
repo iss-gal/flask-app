@@ -7,3 +7,6 @@ def hello():
     name = request.args.get("name", "World")
     return f'Hello, {escape(name)}!'
 
+@app.route('/about')
+def about():
+    return f'Here is some information about me'
