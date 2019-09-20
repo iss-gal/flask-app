@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="../static/css/bulma.min.css">
+  </head>
+  <body>
+  <section class="hero is-info">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        FLASK APP
+      </h1>
+      <h2 class="subtitle">
+        by lucanuscervus.
+      </h2>
+    </div>
+  </div>
+</section>
+
+  <section class="section">
+    <div class="container">
+<nav class="level">
+  <div class="level-item has-text-centered">
+    <div>
+      <p class="heading">HOSTNAME</p>
+      <p class="title">{{ hostname }}</p>
+    </div>
+  </div>
+  <div class="level-item has-text-centered">
+    <div>
+      <p class="heading">IP</p>
+      <p class="title">{{ ip }}</p>
+    </div>
+  </div>
+  <div class="level-item has-text-centered">
+    <div>
+      <p class="heading">SOMETHING</p>
+      <p class="title">???????????</p>
+    </div>
+  </div>
+  <div class="level-item has-text-centered">
+    <div>
+      <p class="heading">VERSION</p>
+      <p class="title">{{ version }}</p>
+    </div>
+  </div>
+</nav>
+</div>
+ </section>
+
+ <section class="section">
+
+<div class="columns is-mobile">
+  <div class="column is-6 is-offset-3"><img src="../static/img/docker.jpg"  alt="docker logo" />
+</div>
+</div>
+</section>
+
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Flask-app</strong> by <a href="https://github.com/iss-gal">Lucanuscervus</a>.
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
