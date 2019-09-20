@@ -2,7 +2,7 @@
 FROM python:3.7-slim-buster
 
 # Metadata
-LABEL version="0.4"
+LABEL version="0.5"
 
 # Copy content folder into /app directory
 COPY ./app /app
