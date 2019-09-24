@@ -2,15 +2,18 @@
 FROM python:3.7-slim-buster
 
 # Metadata
-LABEL version="0.5"
+LABEL version="0.6"
+
+# Copy requirements file
+COPY ./requirements.txt /requirements.txt
+
+# Install requirements
+RUN pip install -r requirements.txt
 
 # Copy content folder into /app directory
 COPY ./app /app
 
 WORKDIR /app
-
-# Install requirements
-RUN pip install -r requirements.txt
 
 EXPOSE 5000
 

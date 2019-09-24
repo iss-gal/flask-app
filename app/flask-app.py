@@ -2,7 +2,7 @@ import socket
 from flask import Flask, render_template, escape, request
 
 app = Flask(__name__)
-version = "0.5"
+version = "0.6"
 
 def return_hostname():
   return socket.gethostname()

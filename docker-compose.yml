@@ -2,7 +2,7 @@ version: '3'
 services:
   flask-app:
     container_name: flaks-app
-    image: lucanuscervus/flask-app:0.5
+    image: lucanuscervus/flask-app:0.6
     ports:
       - "5000:5000"
     volumes:
